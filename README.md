@@ -42,9 +42,8 @@ The solution is built entirely on **Microsoft Fabric**, using a lakehouse-centri
 - **OneLake** — unified storage layer
 - **Lakehouse** — central data storage and processing
 - **Data Pipelines** — orchestration and ingestion
-- **Dataflows Gen2** — low-code transformations (where applicable)
 - **Notebooks (PySpark)** — data transformations and enrichment
-- **Semantic Model / Power BI** — analytics consumption layer
+
 
 ### Architectural Pattern
 - **Medallion Architecture**
@@ -76,8 +75,7 @@ The solution is built entirely on **Microsoft Fabric**, using a lakehouse-centri
 - **Storage:** OneLake, Lakehouse
 - **Processing:** PySpark, SQL
 - **Orchestration:** Data Pipelines
-- **Transformation:** Notebooks, Dataflows Gen2
-- **Analytics:** Semantic Models, Power BI
+- **Transformation:** Notebooks
 - **Version Control:** Git & GitHub
 
 ---
